@@ -11,6 +11,10 @@
     <module>service</module>
     <module>value</module>
   </modules>
+  <properties>
+  <sonar.organization>rimi6</sonar.organization>
+  <sonar.host.url>https://sonarcloud.io</sonar.host.url>
+</properties>
   <distributionManagement>
     <repository>
       <id>sonatype-nexus-staging</id>
